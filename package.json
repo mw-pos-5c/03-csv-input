@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.3"
+  },
+  "name": "03-csv-input",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "devDependencies": {
+    "@types/node": "^16.9.6"
+  },
+  "scripts": {
+    "start": "tsc && node dist/app.js sales.csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mw-pos-5c/03-csv-input.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mw-pos-5c/03-csv-input/issues"
+  },
+  "homepage": "https://github.com/mw-pos-5c/03-csv-input#readme",
+  "description": ""
+}
